@@ -202,6 +202,9 @@ h1, h2, h3 {
 		height: 100%;
 		padding-top: 20px;
 		opacity: 0;
+		text-overflow: ellipsis;
+		overflow: hidden;
+		white-space: nowrap;
 	}
 
 	.navigation-bar-content-container .links-container {
@@ -302,10 +305,26 @@ h1, h2, h3 {
 }
 
 @media (max-width: 800px) {
-	.currently { display: none; }
 	.navigation-bar-content-container .title,
+	.navigation-bar-content-container .currently { 
+		width: 75%; 
+	}
+
 	.navigation-bar-content-container .links-container { 
-		width: 50%; 
+		width: 25%; 
+	}
+
+	.currently { 
+		display: none;
+		padding-left: 50px;
+	}
+
+	.links-container .navigation {
+		display: none;
+	}
+
+	.mobile {
+		display: block;
 	}
 }
 
