@@ -12,7 +12,7 @@ $(document).ready(function ()
 
     // Initialize lazy image loading.
     $(".lazy").lazyload({
-       effect : "fadeIn"
+        effect : "fadeIn"
     });
     
     $('.hamburger-icon').click(function() {
@@ -39,5 +39,4 @@ $(document).ready(function ()
         $('#navigation-bar-container').removeClass('menu-toggle');
         $('.menu-items').removeClass('menu-display-on');
     });
-
 });
