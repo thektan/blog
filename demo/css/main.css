@@ -1,0 +1,243 @@
+
+/* Defaults
+––––––––––––––––––––––––––––––––––––––––––––––– */
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "Varela Round";
+	font-size: 16px;
+	line-height: 28px;
+	color: #333333;
+}
+
+a {
+	color: #007CFF;
+}
+
+a.no-decoration {
+	text-decoration: none;
+}
+
+.hamburger-line {
+	display: block;
+	background-color: #333333;
+	width: 20px;
+	height: 2px;
+	margin: 2px 0;
+}
+
+/* Pagination Arrows
+––––––––––––––––––––––––––––––––––––––––––––––– */
+.base-line {
+	background-color: #333333;
+	width: 35px;
+	height: 2px;
+}
+
+.diagonal-line {
+	background-color: #333333;
+	width: 15px;
+	height: 2px;
+	margin: 3px 0 3px -2px;
+	-ms-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+.diagonal-line.rotate {
+	-ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.diagonal-line.right {
+	margin-left: 24px;
+}
+
+.arrow {
+	top: 50%;
+}
+
+.arrow.left {
+	float: left;
+	margin-left: -85px;
+}
+
+.arrow.right {
+	float: right;
+	margin-right: -85px;
+}
+
+
+/* Typography
+––––––––––––––––––––––––––––––––––––––––––––––– */
+h1, h2, h3 { 
+	margin: 0;
+	font-weight: 400;
+}
+
+#navigation-bar-container .title {
+	color: #333333;
+	text-decoration: none;
+	font-size: 1em; /* 16px */
+	line-height: 80px;
+}
+
+#navigation-bar-container .currently {
+	font-size: 1.125em; /* 18px */
+	line-height: 80px;
+}
+
+#navigation-bar-container .currently:before {
+	content: "Currently:";
+	font-size: 0.6875em; /* 11px */
+	line-height: 1em;
+	color: #BCBCBC;
+	display: block;
+	position: absolute;
+	margin-top: 15px;
+}
+
+.post-container h1.date {
+	font-size: 0.75em; /* 12px */ 
+	color: #BCBCBC;
+}
+
+.post-container h1.title {
+	font-size: 1.625em; /* 26px */
+	line-height: 1.346em; /* 35px */
+	margin-bottom: 50px;
+}
+
+.post-container h2 {
+	font-size: 1.3125em; /* 21px */
+	line-height: 1.28em; /* 36px */
+	margin-top: 50px;
+}
+
+#footer-container {
+	color: #FFFFFF;
+}
+
+#footer-container h1.title {
+	font-size: 1.625em; /* 26px */
+	line-height: 1.346em; /* 35px */
+}
+
+#footer-container h1.date {
+	font-size: 0.75em; /* 12px */ 
+}
+
+
+/* Containers
+––––––––––––––––––––––––––––––––––––––––––––––– */
+#full-page-container {
+	width: 80%;
+	max-width: 1800px;
+	margin: 80px auto 0 auto;
+}
+
+#navigation-bar-container {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 80px;
+	background-color: #FFFFFF;
+}
+
+.navigation-bar-content-container {
+	width: 80%;
+	height: 80px;
+	max-width: 1800px;
+	margin: 0 auto;
+}
+
+	.navigation-bar-content-container .title {
+		float: left;
+		width: 25%;
+		height: 100%;
+		padding: 0 0 0 50px;
+	}
+
+	.navigation-bar-content-container .currently {
+		float: left;
+		width: 50%;
+		height: 100%;
+		visibility: hidden;
+	}
+
+	.navigation-bar-content-container .hamburger-icon-container {
+		float: left;
+		width: 25%;
+		height: 100%;
+		padding: 0 50px 0 0;
+	}
+
+	.hamburger-icon {
+		float: right;
+		margin-top: 30px;
+	}
+
+#pagination-container {
+	position: fixed;
+	top: 50%;
+	margin-top: -11px;
+	max-width: 1800px;
+	width: 80%;
+}
+
+.post-container {
+	width: 100%;
+	margin: 150px auto;
+}
+
+	.post-container h1,
+	.post-container h2,
+	.post-container p {
+		max-width: 600px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.post-container img {
+		max-width: 1800px;
+		width: 100%;
+	}
+
+#footer-container {
+	width: 100%;
+	height: 300px;
+	background-color: rgba(0,0,0,0.5);
+}
+
+.footer-image {
+	position: absolute;
+	width: 100%;
+	height: 300px;
+	background-position: center;
+	background-size: cover;
+	z-index: -1;
+}
+
+.footer-text {
+	max-width: 600px;
+	width: 100%;
+	margin: 0 auto;
+	z-index: 99;
+}
+
+/* Media Queries
+––––––––––––––––––––––––––––––––––––––––––––––– */
+@media (max-width: 1000px) {
+	#full-page-container { width: 100%;}
+	.navigation-bar-content-container { width: 100%; }
+}
+
+@media (max-width: 800px) {
+
+}
+
