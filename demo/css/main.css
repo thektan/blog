@@ -5,6 +5,13 @@
   box-sizing: border-box;
 }
 
+::selection {
+  background: #FFF8AF;
+}
+::-moz-selection {
+  background: #FFF8AF;
+}
+
 body {
 	margin: 0;
 	padding: 0;
@@ -24,6 +31,10 @@ a:hover {
 
 a.no-decoration {
 	text-decoration: none;
+}
+
+.mobile {
+	display: none;
 }
 
 .transition {
@@ -113,6 +124,19 @@ h1, h2, h3 {
 	margin-top: 15px;
 }
 
+#navigation-bar-container .navigation {
+	color: #333333;
+	text-decoration: none;
+	font-size: 0.875em; /* 12px */
+	line-height: 80px;
+	padding-bottom: 5px;
+	border-bottom: 2px solid #FFFFFF;
+}
+
+#navigation-bar-container .navigation:hover {
+	border-bottom: 2px solid #333333;
+}
+
 .post-container h1.date {
 	font-size: 0.75em; /* 12px */ 
 	color: #BCBCBC;
@@ -180,8 +204,9 @@ h1, h2, h3 {
 		opacity: 0;
 	}
 
-	.navigation-bar-content-container .hamburger-icon-container {
+	.navigation-bar-content-container .links-container {
 		float: left;
+		text-align: right;
 		width: 25%;
 		height: 100%;
 		padding: 0 50px 0 0;
@@ -207,7 +232,8 @@ h1, h2, h3 {
 	.post-container h1,
 	.post-container h2,
 	.post-container p {
-		max-width: 600px;
+		padding: 0 50px;
+		max-width: 700px;
 		margin-left: auto;
 		margin-right: auto;
 	}
@@ -243,7 +269,8 @@ h1, h2, h3 {
 }
 
 .footer-text {
-	max-width: 600px;
+	padding: 0 50px;
+	max-width: 700px;
 	width: 100%;
 	margin: 0 auto;
 	z-index: 99;
@@ -255,6 +282,17 @@ h1, h2, h3 {
 .navigation-bar-content-container { max-width: 1500px; }
 #pagination-container { max-width: 1500px; }
 
+/* Animation Setup
+––––––––––––––––––––––––––––––––––––––––––––––– */
+.post-container {
+	opacity: 0;
+	margin-top: 180px;
+}
+
+.fade-in {
+	opacity: 0;
+}
+
 /* Media Queries
 ––––––––––––––––––––––––––––––––––––––––––––––– */
 @media (max-width: 1000px) {
@@ -264,6 +302,20 @@ h1, h2, h3 {
 }
 
 @media (max-width: 800px) {
+	.currently { display: none; }
+	.navigation-bar-content-container .title,
+	.navigation-bar-content-container .links-container { 
+		width: 50%; 
+	}
+}
 
+@media (max-width: 500px) {
+	.footer-image {
+		background-size: cover;
+	}
+	
+	#footer-container:hover .footer-image {
+		background-size: cover;
+	}
 }
 
