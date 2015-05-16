@@ -455,5 +455,17 @@ h1, h2, h3 {
 	#footer-container:hover .footer-image {
 		background-size: cover;
 	}
+
+	.archive-list ul {
+		height: 100px;
+	}
+
+	.archive-list  .column-one {
+		width: 100%;
+	}
+
+	.archive-list .column-two {
+		width: 100%;
+	}
 }
 
