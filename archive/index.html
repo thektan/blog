@@ -1,0 +1,47 @@
+---
+layout: default
+---
+
+<!-- Pagination Links
+–––––––––––––––––––––––––––––––––––––––––––––––––––-->
+<div id="pagination-container">
+  {% if page.previous %}
+  <a href="{{ page.previous.url | prepend: site.baseurl }}">
+    <div class="arrow left">
+      <div class="diagonal-line"></div>
+      <div class="base-line"></div>
+      <div class="diagonal-line rotate"></div>
+    </div>
+  </a>
+  {% endif %}
+
+  {% if page.next %}
+  <a href="{{ page.next.url | prepend: site.baseurl }}">
+    <div class="arrow right">
+      <div class="diagonal-line rotate right"></div>
+      <div class="base-line"></div>
+      <div class="diagonal-line right"></div>
+    </div>
+  </a>
+  {% endif %}
+</div>
+
+<!-- Post Container
+–––––––––––––––––––––––––––––––––––––––––––––––––––-->
+<div class="post-container transition">
+  <div class="archive-title-container">
+    <div class="column-one">&nbsp;</div>
+    <div class="column-two"><h1 class="title">Archive</h1></div>
+  </div>
+
+  <ol class="archive-list">
+  {% for post in site.posts %}
+    <a href="{{ post.url }}">
+    <ul class="transition">
+      <li class="column-one">{{ post.date | date: "%B %-d, %Y" }}</li>
+      <li class="column-two">{{ post.title }}</li>
+    </ul>
+    </a>
+  {% endfor %}
+  </ol>
+</div>
