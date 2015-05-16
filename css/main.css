@@ -165,7 +165,6 @@ h1, h2, h3 {
 .post-container h2 {
 	font-size: 1.3125em; /* 21px */
 	line-height: 1.28em; /* 36px */
-	margin-top: 50px;
 }
 
 #footer-container {
@@ -257,8 +256,9 @@ h1, h2, h3 {
 	}
 
 	.post-container img {
-		max-width: 1800px;
-		width: 100%;
+		display: block;
+		margin: 50px auto;
+		max-width: 100%;
 	}
 
 #footer-container {
