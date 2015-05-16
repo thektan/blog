@@ -1,30 +1,7 @@
 ---
 layout: default
+title:  "Archive"
 ---
-
-<!-- Pagination Links
-–––––––––––––––––––––––––––––––––––––––––––––––––––-->
-<div id="pagination-container">
-  {% if page.previous %}
-  <a href="{{ page.previous.url | prepend: site.baseurl }}">
-    <div class="arrow left">
-      <div class="diagonal-line"></div>
-      <div class="base-line"></div>
-      <div class="diagonal-line rotate"></div>
-    </div>
-  </a>
-  {% endif %}
-
-  {% if page.next %}
-  <a href="{{ page.next.url | prepend: site.baseurl }}">
-    <div class="arrow right">
-      <div class="diagonal-line rotate right"></div>
-      <div class="base-line"></div>
-      <div class="diagonal-line right"></div>
-    </div>
-  </a>
-  {% endif %}
-</div>
 
 <!-- Post Container
 –––––––––––––––––––––––––––––––––––––––––––––––––––-->
