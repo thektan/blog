@@ -50,11 +50,13 @@ The archive page is a simple listing of all the posts.
 
 <img class="lazy" data-original="{{ "/images/casestudy-blog-4.png" | prepend: site.baseurl }}" alt="photo"/>
 
-## Improvements
+## Future Improvements
 
 The pagination arrows are still vague. To give more understanding to what the arrows actually do, I'm planning to implement a hover animation that will read "previous post" or "next post" with the respective post title and date.
 
 Optimize images to compress them to a smaller size taking up less disk space and increase loading speeds.
+
+Implement [pjax]("https://github.com/defunkt/jquery-pjax") when changing pages within the website. Removes unnecessary reloading of elements constant across every page.
 
 <br/>
 
