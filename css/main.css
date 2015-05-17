@@ -111,6 +111,14 @@ h1, h2, h3 {
 	font-weight: 400;
 }
 
+.site-title {
+	color: #333333;
+}
+
+.site-title:hover {
+	color: #BCBCBC;
+}
+
 #navigation-bar-container .title {
 	color: #333333;
 	text-decoration: none;
