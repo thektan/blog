@@ -6,7 +6,6 @@ categories: adventure
 image:	https://farm8.staticflickr.com/7412/16342206696_6f1a98617e_o.jpg
 ---
 
-<br/>
 <img class="lazy" data-original="https://farm8.staticflickr.com/7431/15748194693_d0597a24b5_o.jpg" alt="photo"/>
 
 As an early celebration for my friend’s birthday, we went on a trip to San Francisco. The first stop was Chinatown, a place I haven’t been for years. We planned to eat dim sum first and then get egg tarts at the famous Golden Gate Bakery, but as we passed by it there was practically no line! So we had to get the tarts first.
