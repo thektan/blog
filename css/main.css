@@ -30,6 +30,12 @@ img {
 	margin-right: auto;
 }
 
+figcaption {
+	font-size: 14px;
+	color: #BCBCBC;
+	margin-top: -40px;
+}
+
 a {
 	color: #007CFF;
 }
