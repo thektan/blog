@@ -5,13 +5,6 @@
   box-sizing: border-box;
 }
 
-::selection {
-  background: #FFF8AF;
-}
-::-moz-selection {
-  background: #FFF8AF;
-}
-
 body {
 	margin: 0;
 	padding: 0;
