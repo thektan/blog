@@ -30,6 +30,10 @@ img {
 	margin-right: auto;
 }
 
+figure {
+	margin: 20px auto;
+}
+
 figcaption {
 	font-size: 14px;
 	color: #BCBCBC;
@@ -425,6 +429,7 @@ h1, h2, h3 {
 	#full-page-container { width: 100%;}
 	.navigation-bar-content-container { width: 100%; }
 	#pagination-container { visibility: hidden; }
+	figcaption { margin-left: 20px; }
 }
 
 @media (max-width: 900px) {
