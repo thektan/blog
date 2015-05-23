@@ -1,0 +1,10 @@
+/* Remove Animation Setup
+––––––––––––––––––––––––––––––––––––––––––––––– */
+.post-container {
+	opacity: 1;
+	margin-top: 150px;
+}
+
+.fade-in {
+	opacity: 1;
+}
