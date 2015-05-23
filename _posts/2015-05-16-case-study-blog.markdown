@@ -1,5 +1,5 @@
 ---
-layout: full
+layout: post
 title:  "Case Study: Jekyll Blog"
 date:   2015-05-16
 categories: case study

@@ -1,5 +1,5 @@
 ---
-layout: full
+layout: post
 title:  "Exploring Food in Berkeley and Oakland"
 date:   2015-04-25
 categories: adventure

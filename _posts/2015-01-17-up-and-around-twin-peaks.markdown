@@ -1,5 +1,5 @@
 ---
-layout: full
+layout: post
 title:  "Up And Around Twin Peaks"
 date:   2015-01-17
 categories: adventure
