@@ -3,12 +3,12 @@ layout: post
 title:  "Case Study: Jekyll Blog"
 date:   2015-05-16
 categories: case study
-image:	/images/casestudy-blog-3.png
+image:	/images/2015-05-16-case-study-blog/casestudy-blog-3.png
 ---
 
 A case study about the blog you're currently viewing. Designed and implemented a blog using [Jekyll](http://jekyllrb.com/).
 
-<img class="lazy" data-original="{{ "/images/casestudy-blog-1.png" | prepend: site.baseurl }}" alt="photo"/>
+<img class="lazy" data-original="{{ "/images/2015-05-16-case-study-blog/casestudy-blog-1.png" | prepend: site.baseurl }}" alt="photo"/>
 
 ## Why Jekyll?
 
@@ -16,7 +16,7 @@ I was deciding between three different blogging platforms: Tumblr, Wordpress, an
 
 The page loading speed of the Jekyll blog hosted on Github Pages is also much faster than loading a Tumblr blog.
 
-<img class="lazy" data-original="{{ "/images/casestudy-blog-2.png" | prepend: site.baseurl }}" alt="photo"/>
+<img class="lazy" data-original="{{ "/images/2015-05-16-case-study-blog/casestudy-blog-2.png" | prepend: site.baseurl }}" alt="photo"/>
 
 ## Design Process
 
@@ -26,19 +26,19 @@ Each page is a single post. Since some of the posts will be long, the user might
 
 I first sketched layouts in a notebook and then took them to the Sketch app where I played around more with font choices and alignment.
 
-<img class="lazy" data-original="{{ "/images/casestudy-blog-6.png" | prepend: site.baseurl }}" alt="photo"/>
+<img class="lazy" data-original="{{ "/images/2015-05-16-case-study-blog/casestudy-blog-6.png" | prepend: site.baseurl }}" alt="photo"/>
 
 ##Color Palette
 
 Font: Varela Round *(served by Google Fonts)*
 
-<img class="lazy" data-original="{{ "/images/casestudy-blog-3.png" | prepend: site.baseurl }}" alt="photo"/>
+<img class="lazy" data-original="{{ "/images/2015-05-16-case-study-blog/casestudy-blog-3.png" | prepend: site.baseurl }}" alt="photo"/>
 
 ## Responsiveness
 
 The site is fully responsive so it'll look great whether the site is going to be viewed on a phone, tablet, or desktop.
 
-<img class="lazy" data-original="{{ "/images/casestudy-blog-5.png" | prepend: site.baseurl }}" alt="photo"/>
+<img class="lazy" data-original="{{ "/images/2015-05-16-case-study-blog/casestudy-blog-5.png" | prepend: site.baseurl }}" alt="photo"/>
 
 ## User Experience
 
@@ -48,7 +48,7 @@ Also when the article is scrolled down past the title, the title appears on the 
 
 The archive page is a simple listing of all the posts.
 
-<img class="lazy" data-original="{{ "/images/casestudy-blog-4.png" | prepend: site.baseurl }}" alt="photo"/>
+<img class="lazy" data-original="{{ "/images/2015-05-16-case-study-blog/casestudy-blog-4.png" | prepend: site.baseurl }}" alt="photo"/>
 
 ## Future Improvements
 
