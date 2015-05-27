@@ -29,9 +29,11 @@ layout: default
 <!-- Post Container
 –––––––––––––––––––––––––––––––––––––––––––––––––––-->
 <div class="post-container transition">
+  <img src="{{ page.image }}" alt="cover image" />
   <h1 class="date">{{ page.date | date: "%B %-d, %Y" }}</h1>
   <h1 class="title">{{ page.title }}</h1>
   {{ content }}
-  {% include disqus.html %}
 </div>
+
+{% include disqus.html %}
 

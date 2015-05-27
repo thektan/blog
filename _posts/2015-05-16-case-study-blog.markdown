@@ -3,12 +3,10 @@ layout: post
 title:  "Case Study: Jekyll Blog"
 date:   2015-05-16
 categories: case study
-image:	/images/2015-05-16-case-study-blog/casestudy-blog-3.png
+image:	/images/2015-05-16-case-study-blog/casestudy-blog-1.png
 ---
 
 A case study about the blog you're currently viewing. Designed and implemented a blog using [Jekyll](http://jekyllrb.com/).
-
-<img class="lazy" data-original="{{ "/images/2015-05-16-case-study-blog/casestudy-blog-1.png" | prepend: site.baseurl }}" alt="photo"/>
 
 ## Why Jekyll?
 
@@ -57,8 +55,6 @@ The pagination arrows are still vague. To give more understanding to what the ar
 Optimize images to compress them to a smaller size taking up less disk space and increase loading speeds.
 
 Implement [pjax]("https://github.com/defunkt/jquery-pjax") when changing pages within the website. Removes unnecessary reloading of elements constant across every page.
-
-<br/>
 
 ## Credits
 

@@ -14,8 +14,6 @@ Three friends and I went on a journey around Oakland and Berkeley eating at plac
 
 The place was so popular that they didn’t even need a sign other than some butcher paper taped their outside wall. Brought me back to elementary school days. Anyway, their menu was extremely simple. Chicken sandwich, tofu sandwich, and cookies. Being such a simple menu, they were able to get the food out extremely fast. The line wasn’t that long when we got in it so we were in and out of there in about 5 minutes. They made the food so fast that as I was paying for the sandwich, they had already finished making it. Talk about efficient!
 
-<img class="lazy" data-original="{{ "/images/2015-05-10-exploring-food-in-berkeley/2015-04-25 13.16.30.jpg" | prepend: site.baseurl }}" alt="photo"/>
-
 The tables outside were ironing board inspired tables! I loved it! Along with the buttermilk fried chicken sandwich, I also picked up a ginger molasses cookie. Enjoyed them both, although I wish the coleslaw in the sandwich had more sauce to it.
 
 <img class="lazy" data-original="{{ "/images/2015-05-10-exploring-food-in-berkeley/2015-04-25 14.30.02.jpg" | prepend: site.baseurl }}" alt="photo"/>

@@ -1,7 +1,7 @@
 $(document).ready(function ()
 {
     // Intro animations.
-    $('.post-container').css('margin-top', '150px')
+    $('.post-container').css('margin-top', '80px')
                         .css('opacity', '1');
     $('.fade-in').css('opacity', '1');
 
