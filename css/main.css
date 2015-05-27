@@ -35,6 +35,10 @@ figcaption {
 
 a {
 	color: #007CFF;
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
 }
 
 a:hover {
@@ -149,17 +153,22 @@ h1, h2, h3 {
 	text-decoration: none;
 	font-size: 0.875em; /* 12px */
 	line-height: 80px;
-	padding: 10px 15px;
-	border-radius: 100px 100px 100px 100px;
-	-moz-border-radius: 100px 100px 100px 100px;
-	-webkit-border-radius: 100px 100px 100px 100px;
+	margin: 0 0 0 30px;
+	/*border-radius: 100px;
+	-moz-border-radius: 100px;
+	-webkit-border-radius: 100px;
 	border: 1px solid #FFFFFF;
-	/*border-bottom: 2px solid #FFFFFF;*/
+	border-bottom: 2px solid #FFFFFF;*/
+}
+
+#navigation-bar-container .navigation:first-of-type {
+	margin: 0;
 }
 
 #navigation-bar-container .navigation:hover {
-	/*border-bottom: 2px solid #333333;*/
-	border: 1px solid #333333;
+	/*border-bottom: 2px solid #333333;
+	border: 1px solid #333333;*/
+	color: #BCBCBC;
 }
 
 .post-container h1.date {
@@ -217,7 +226,7 @@ h1, h2, h3 {
 		float: left;
 		width: 25%;
 		height: 100%;
-		padding: 0 0 0 50px;
+		padding: 0;
 	}
 
 	.navigation-bar-content-container .currently {
@@ -236,7 +245,7 @@ h1, h2, h3 {
 		text-align: right;
 		width: 35%;
 		height: 100%;
-		padding: 0 50px 0 0;
+		padding: 0;
 	}
 
 	.hamburger-icon {
@@ -423,6 +432,8 @@ h1, h2, h3 {
 	.navigation-bar-content-container { width: 100%; }
 	#pagination-container { visibility: hidden; }
 	figcaption { margin-left: 20px; }
+	.navigation-bar-content-container .title { padding: 0 0 0 50px; }
+	.navigation-bar-content-container .links-container { padding: 0 50px 0 0; }
 }
 
 @media (max-width: 900px) {
