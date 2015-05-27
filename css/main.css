@@ -320,13 +320,13 @@ h1, h2, h3 {
 }
 
 .archive-title-container {
-	width: 95%; 
-	height: 120px; 
-	margin: 0 auto;
+	width: 100%;
+	overflow: auto;
+	margin: 150px auto 100px auto;
 }
 
 .archive-list {
-	width: 95%;
+	width: 100%;
 	padding: 0;
 	margin: 0 auto;
 }
@@ -340,10 +340,17 @@ h1, h2, h3 {
 }
 
 .archive-list ul:hover {
-	background-color: #F2F2F2;
+	background-color: #F4F8FF;
+}
+
+.archive-list ul:hover .column-one,
+.archive-list ul:hover .column-two {
+	color: #0062FF;
 }
 
 .column-one {
+	box-sizing: border-box;
+	padding-left: 20px;
 	float: left;
 	width: 25%;
 }

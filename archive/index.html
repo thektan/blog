@@ -14,7 +14,7 @@ title:  "Archive"
   <ol class="archive-list">
   {% for post in site.posts %}
     <a href="{{ post.url }}">
-    <ul class="transition">
+    <ul>
       <li class="column-one">{{ post.date | date: "%B %-d, %Y" }}</li>
       <li class="column-two">{{ post.title }}</li>
     </ul>
