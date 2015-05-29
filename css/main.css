@@ -333,13 +333,13 @@ h1, h2, h3 {
 }
 
 .archive-title-container {
-	width: 100%;
+	width: 80%;
 	overflow: auto;
 	margin: 150px auto 100px auto;
 }
 
 .archive-list {
-	width: 100%;
+	width: 80%;
 	padding: 0;
 	margin: 0 auto;
 }
